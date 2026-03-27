@@ -195,8 +195,8 @@ body {
 
 #fssh {
     position: relative;
-    top: 62vh;
-    left: 30vw;
+    top: 30vh;
+    left: 33vw;
     width: fit-content;
 }
 
@@ -236,6 +236,12 @@ body {
     border-radius: 20%;
     background-color: #5b39d4;
     border: transparent;
+    transition: all 1.5s cubic-bezier(0.02, 0.68, 0.5, 1);
+}
+
+#sci:hover {
+    scale: 1.2;
+    z-index: 1;
 }
 
 #math {
@@ -246,6 +252,12 @@ body {
     border-radius: 20%;
     background-color: red;
     border: transparent;
+    transition: all 1.5s cubic-bezier(0.02, 0.68, 0.5, 1);
+}
+
+#math:hover {
+    scale: 1.2;
+    z-index: 1;
 }
 
 #eng {
@@ -256,6 +268,12 @@ body {
     border-radius: 20%;
     background-color: green;
     border: transparent;
+    transition: all 1.5s cubic-bezier(0.02, 0.68, 0.5, 1);
+}
+
+#eng:hover {
+    scale: 1.2;
+    z-index: 1;
 }
 
 #art {
@@ -265,7 +283,13 @@ body {
     height: 150px;
     border-radius: 20%;
     background-color: orange;
-    border: transparent;
+    border: black;
+    transition: all 1.5s cubic-bezier(0.02, 0.68, 0.5, 1);
+}
+
+#art:hover {
+    scale: 1.2;
+    z-index: 1;
 }
 
 #ff {
@@ -277,17 +301,10 @@ body {
     top: 1vh;
     left: 30.5vw;
     border: transparent;
-    background-image: linear-gradient(
-        to right,
-        red,
-        orange,
-        yellow,
-        green,
-        blue,
-        indigo
-    );
+    background-image: linear-gradient(to right, blue, purple);
     transition: all 1.5s cubic-bezier(0.02, 0.68, 0.5, 1);
 }
 #ff:hover {
-    transform: translateY(10);
+    scale: 1.2;
+    z-index: 1;
 }
