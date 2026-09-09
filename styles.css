@@ -18,9 +18,9 @@ body {
 
 #hi {
     font-size: xx-large;
-    position: relative;
-    left: 100vw;
-    bottom: 30vh;
+    position: absolute;
+    left: 30vw;
+    top: 15vh;
     width: fit-content;
     animation: rotating 10s infinite;
     color: white;
@@ -113,9 +113,9 @@ body {
 #back {
     box-shadow: 0px 10px 0px black;
     transition: all 1s cubic-bezier(0.02, 0.68, 0.5, 1);
-    position: relative;
-    left: 95vw;
-    bottom: 10vh;
+    position: absolute;
+    left: 1vw;
+    top: 1vh;
 }
 
 #back:active {
@@ -155,7 +155,7 @@ body {
     top:60vh;
     left:60vw;
     border-radius: 50%;
-    background-color: #5b39d4;
+    background-color: blue;
     border: transparent;
     transition: all 1.5s cubic-bezier(0.02, 0.68, 0.5, 1);
 }
@@ -163,6 +163,9 @@ body {
 #sci:hover {
     scale: 1.2;
     z-index: 1;
+    box-shadow: 0px 0px 5px 12px darkblue;
+    animation: rotating 5s infinite;
+    cursor: grabbing;
 }
 
 #math {
@@ -181,6 +184,9 @@ body {
 #math:hover {
     scale: 1.2;
     z-index: 1;
+    box-shadow: 0px 0px 5px 12px darkred;
+    animation: rotating 5s infinite;
+    cursor: grabbing;
 }
 
 #eng {
@@ -199,6 +205,9 @@ body {
 #eng:hover {
     scale: 1.2;
     z-index: 1;
+    box-shadow: 0px 0px 5px 12px darkgreen;
+    animation: rotating 5s infinite;
+    cursor: grabbing;
 }
 
 #art {
@@ -217,6 +226,9 @@ body {
 #art:hover {
     scale: 1.2;
     z-index: 1;
+    box-shadow: 0px 0px 5px 12px darkorange;
+    animation: rotating 5s infinite;
+    cursor: grabbing;
 }
 
 #ff {
@@ -228,10 +240,13 @@ body {
     top: 25vh;
     left: 50vw;
     border: transparent;
-    background-image: linear-gradient(to right, blue, purple);
+    background-image: linear-gradient(to right, rgb(126, 126, 251), purple);
     transition: all 1.5s cubic-bezier(0.02, 0.68, 0.5, 1);
 }
 #ff:hover {
     scale: 1.2;
     z-index: 1;
+    box-shadow: 0px 0px 5px 12px rgb(55, 3, 119);
+    animation: rotating 5s infinite;
+    cursor: grabbing;
 }
