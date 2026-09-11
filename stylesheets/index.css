@@ -1,0 +1,114 @@
+:root {
+    cursor: url(assets/RWHand.cur), auto;
+}
+
+@font-face {
+    font-family: hypercam;
+    src: url(assets/FSEX300.ttf) format(truetype);
+}
+body {
+    align-items: center;
+    font-family: "Maple Mono";
+    cursor: crosshair;
+    background-image: url(https://gifcity.carrd.co/assets/images/gallery128/13d961d9.png?v=49efbe4c);
+    background-size: cover;
+}
+
+
+#hi {
+    font-size: xx-large;
+    position: absolute;
+    left: 30vw;
+    top: 15vh;
+    width: fit-content;
+    animation: rotating 10s infinite;
+    color: white;
+}
+@keyframes rotating {
+    0% {
+        -webkit-transform: rotate(-10deg);
+    }
+    10% {
+        -webkit-transform: rotate(10deg);
+    }
+    20% {
+        -webkit-transform: rotate(-10deg);
+    }
+    30% {
+        -webkit-transform: rotate(10deg);
+    }
+    40% {
+        -webkit-transform: rotate(-10deg);
+    }
+    50% {
+        -webkit-transform: rotate(10deg);
+    }
+    60% {
+        -webkit-transform: rotate(-10deg);
+    }
+    70% {
+        -webkit-transform: rotate(10deg);
+    }
+    80% {
+        -webkit-transform: rotate(-10deg);
+    }
+    90% {
+        -webkit-transform: rotate(10deg);
+    }
+    100% {
+        -webkit-transform: rotate(-10deg);
+    }
+}
+
+#port {
+    font-family: "Maple Mono";
+    font-weight: bold;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-size: 50px;
+    color: white;
+    background: rgb(25, 25, 255);
+    transition: all 1.5s cubic-bezier(0.02, 0.68, 0.5, 1);
+    border-radius: 55%;
+    box-shadow: 0px 10px 0px black;
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 10px;
+}
+
+#port:hover {
+    cursor: grab;
+}
+
+#port:active {
+    transform: translateY(10px);
+    box-shadow: 0px 0px 0px black;
+    cursor: grabbing;
+}
+
+
+#headr {
+    font-size: xxx-large;
+    position: relative;
+    top: 1vh;
+    left: 10vw;
+    justify-content: center;
+    justify-items: center;
+    color: white;
+}
+
+
+#intro {
+    width: 850px;
+    height: fit-content;
+    position: relative;
+    top: 1vh;
+    left: 25vw;
+    color: white;
+}
+
+.subbutton {
+    position: relative;
+    left: 30vw;
+}
