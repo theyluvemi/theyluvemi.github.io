@@ -44,8 +44,8 @@ body {
     top:60vh;
     left:60vw;
     border-radius: 50%;
-    background-color: blue;
-    border: transparent;
+    background: #00ff04;
+    background: radial-gradient(circle, rgba(0, 255, 4, 1) 0%, rgba(0, 191, 255, 1) 50%, rgba(23, 143, 14, 1) 100%);    border: transparent;
     transition: all 1.5s cubic-bezier(0.02, 0.68, 0.5, 1);
 }
 
@@ -65,8 +65,8 @@ body {
     top:50vh;
     left: 30vw;
     border-radius: 50%;
-    background-color: red;
-    border: transparent;
+    background: #FFE500;
+    background: radial-gradient(circle, rgba(255, 229, 0, 1) 0%, rgba(255, 119, 0, 1) 50%, rgba(255, 0, 0, 1) 100%);    border: transparent;
     transition: all 1.5s cubic-bezier(0.02, 0.68, 0.5, 1);
 }
 
@@ -86,7 +86,8 @@ body {
     top: 30vh;
     left: 80vw;
     border-radius: 50%;
-    background-color: green;
+    background: #038a07;
+    background: radial-gradient(circle, rgba(3, 138, 7, 1) 0%, rgba(128, 255, 0, 1) 50%, rgba(6, 105, 32, 1) 100%);
     border: transparent;
     transition: all 1.5s cubic-bezier(0.02, 0.68, 0.5, 1);
 }
@@ -107,7 +108,8 @@ body {
     left:10vw;
     top: 30vh;
     border-radius: 50%;
-    background-color: orange;
+    background: #0000ff;
+    background: radial-gradient(circle, rgba(0, 0, 255, 1) 0%, rgba(229, 58, 252, 1) 50%, rgba(37, 245, 238, 1) 100%);
     border: white;
     transition: all 1.5s cubic-bezier(0.02, 0.68, 0.5, 1)
 }
@@ -129,7 +131,8 @@ body {
     top: 25vh;
     left: 50vw;
     border: transparent;
-    background-image: linear-gradient(to right, rgb(126, 126, 251), purple);
+    background: #9000ff;
+    background: radial-gradient(circle, rgba(144, 0, 255, 1) 0%, rgba(0, 0, 255, 1) 50%, rgba(122, 14, 143, 1) 100%);
     transition: all 1.5s cubic-bezier(0.02, 0.68, 0.5, 1);
     animation: rotating 10s infinite;
 }
