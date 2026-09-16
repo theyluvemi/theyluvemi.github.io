@@ -112,3 +112,16 @@ body {
     position: relative;
     left: 30vw;
 }
+
+
+#welcome {
+    width: 50vw;
+    height: 45vh;
+    background-color: rgba(128, 0, 128, 0.465);
+    font-size: large;
+    position: relative;
+    top: 25vh;
+    left: 25vw;
+    color: white;
+    outline-style: dashed;
+}
