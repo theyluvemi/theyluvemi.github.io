@@ -1,5 +1,5 @@
 :root {
-    cursor: url(assets/RWHand.cur), auto;
+    cursor: url(assets/RWPrecisionSelect.cur), auto;
 }
 
 @font-face {
@@ -10,7 +10,7 @@ body {
     align-items: center;
     font-family: "Maple Mono";
     cursor: crosshair;
-    background-image: url(https://gifcity.carrd.co/assets/images/gallery128/13d961d9.png?v=49efbe4c);
+    background-image: url(https://gifcity.carrd.co/assets/images/gallery68/5cba38ca.gif?v=3fc8f5cd);
     background-size: cover;
 }
 

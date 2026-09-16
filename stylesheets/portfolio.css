@@ -10,7 +10,7 @@ body {
     align-items: center;
     font-family: "Maple Mono";
     cursor: crosshair;
-    background-image: url(https://gifcity.carrd.co/assets/images/gallery128/13d961d9.png?v=49efbe4c);
+    background-image: url(https://gifcity.carrd.co/assets/images/gallery128/13d961d9.png?v=3fc8f5cd);
     background-size: cover;
 }
 
@@ -117,7 +117,7 @@ body {
 #art:hover {
     scale: 1.2;
     z-index: 1;
-    box-shadow: 0px 0px 5px 12px darkorange;
+    box-shadow: 0px 0px 5px 12px rgb(255, 0, 238);
     animation: rotating 5s infinite;
     cursor: grabbing;
 }
