@@ -125,3 +125,11 @@ body {
     color: white;
     outline-style: dashed;
 }
+
+#immunity {
+    width:350px;
+    height:250px;
+    position: relative;
+    left:-5vw;
+    top:-50vh;
+}
