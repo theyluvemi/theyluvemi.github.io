@@ -4,4 +4,14 @@ body {
     cursor: crosshair;
     background-image: url("https://static.vecteezy.com/system/resources/previews/005/489/081/non_2x/red-blood-cell-background-free-vector.jpg");
     background-size: cover;
+    color:white;
+}
+
+#immuneh1 {
+    right:100px;
+}
+
+
+#linesofdefence {
+    list-style-type:lower-roman;
 }
